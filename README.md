@@ -8,6 +8,8 @@ and deployed on a Kubernetes cluster.
 - Java + Spring Boot
 - Docker
 - Kubernetes
+- Minikube
+- Python
 - Any IDE (I built this app using Visual Studio Code)
 
 ## Steps to install necessary tools
@@ -17,6 +19,7 @@ You will first need to download these tools to ensure the project builds correct
 3. Download Kubernetes using the link https://kubernetes.io/releases/download/ and follow the steps for your operating system. 
 4. Download Minikube using the link https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#LoadBalancer and follow the steps for your operating system.
 5. Download the correct version of Java. This project uses JDK 17 so any version above 17 should work as well. To check the version, you can run java -version in your terminal. 
+6. Download Python using the link https://www.python.org/downloads/ as you will need it to run the script to verify that your microservices are working as intended.
 
 For Windows, make sure that your JAVA_HOME and PATH environment variable is set to the correct Java installation path.
 For Mac, you can edit your shell profile to change the JAVA_HOME and PATH environment variable are correct.
@@ -46,7 +49,6 @@ minikube service world-service
 9. Minikube should provide you links for each service and you can change the endpoints to test if the microservices work as intended. 
 ![Alt text](image-2.png)
 
-
-## Links to Docker Images:
+## Links to Docker Images
 - Hello Microservice: https://hub.docker.com/r/eric02pham/hello-service
 - World Microservice: https://hub.docker.com/r/eric02pham/world-service
