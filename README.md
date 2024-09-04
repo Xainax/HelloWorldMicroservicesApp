@@ -4,24 +4,19 @@ This application uses two Spring Boot projects, each being a microservice, that 
 with each other to return the message "Hello World". Each microservice will be containerized in Docker 
 and deployed on a Kubernetes cluster.
 
-## Tools and Instructions needed to deploy application:
-Java + Spring Boot
-Docker
-Kubernetes
-Any IDE (I built this app using Visual Studio Code)
+## Tools used to deploy application:
+- Java + Spring Boot
+- Docker
+- Kubernetes
+- Any IDE (I built this app using Visual Studio Code)
 
-## Steps to deploy application: 
+## Steps to install necessary tools: 
 You will first need to download these tools to ensure the project builds correctly.
-First, download the code/clone this GitHub repository. 
-
-Download Docker Desktop using the link https://docs.docker.com/get-started/get-docker/ and follow the steps for your operating system.
-
-Download Kubernetes using the link https://kubernetes.io/releases/download/ and follow the steps for your operating system. 
-
-You will also need Minikube so follow the steps for your operating system using this link https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#LoadBalancer
-
-Make sure you have downloaded JDK 17 or above as the project runs on JDK 17. 
-To check the version, you can run java -version in your terminal. 
+1. Download the code/clone this GitHub repository. 
+2. Download Docker Desktop using the link https://docs.docker.com/get-started/get-docker/ and follow the steps for your operating system.
+3. Download Kubernetes using the link https://kubernetes.io/releases/download/ and follow the steps for your operating system. 
+4. Download Minikube using the link https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#LoadBalancer and follow the steps for your operating system.
+5. Download the correct version of Java. This project uses JDK 17 so any version above 17 should work as well. To check the version, you can run java -version in your terminal. 
 
 For Windows, make sure that your JAVA_HOME and PATH environment variable is set to the correct Java installation path.
 For Mac, you can edit your shell profile to change the JAVA_HOME and PATH environment variable are correct.
