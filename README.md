@@ -62,3 +62,9 @@ minikube service world-service
 ## Links to Docker Images
 - Hello Microservice: https://hub.docker.com/r/eric02pham/hello-service
 - World Microservice: https://hub.docker.com/r/eric02pham/world-service
+
+## Resources/Documentation Used to Help Build Application
+- https://spring.io/guides/gs/spring-boot-docker
+- https://kubernetes.io/docs/tutorials/hello-minikube/
+- https://spacelift.io/blog/kubernetes-manifest-file
+- https://spacelift.io/blog/kubernetes-deployment-yaml
