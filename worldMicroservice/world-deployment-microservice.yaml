@@ -1,5 +1,6 @@
 # Template used for Kubernetes manifest
 # https://spacelift.io/blog/kubernetes-deployment-yaml
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
