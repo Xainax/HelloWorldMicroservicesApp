@@ -47,6 +47,7 @@ minikube service hello-service
 minikube service world-service
 ```
 9. Minikube should provide you links for each service and you can change the endpoints to test if the microservices work as intended. 
+![Alt text](image-4.png)
 ![Alt text](image-2.png)
 
 10. Once you are given the URLs for your microservices, take them and change the links in the HelloWorldService.py to match them.
@@ -55,6 +56,7 @@ minikube service world-service
 11. Once the Python script is using the correct links, you will need to install requests so run the command `python -m pip install requests` or `python3 -m pip install requests` depending on your OS. 
 
 12. After Requests is installed, you can run the Python script using `python3 HelloWorldService.py` or `python HelloWorldService.py` and it should print out "Hello World".
+![Alt text](image-5.png)
 
 ## Links to Docker Images
 - Hello Microservice: https://hub.docker.com/r/eric02pham/hello-service
