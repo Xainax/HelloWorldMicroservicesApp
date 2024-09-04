@@ -1,16 +1,16 @@
 # HelloWorldMicroservicesApp
-## Project Description:
+## Project Description
 This application uses two Spring Boot projects, each being a microservice, that will communicate 
 with each other to return the message "Hello World". Each microservice will be containerized in Docker 
 and deployed on a Kubernetes cluster.
 
-## Tools used to deploy application:
+## Tools used to deploy application
 - Java + Spring Boot
 - Docker
 - Kubernetes
 - Any IDE (I built this app using Visual Studio Code)
 
-## Steps to install necessary tools: 
+## Steps to install necessary tools
 You will first need to download these tools to ensure the project builds correctly.
 1. Download the code/clone this GitHub repository. 
 2. Download Docker Desktop using the link https://docs.docker.com/get-started/get-docker/ and follow the steps for your operating system.
@@ -21,6 +21,8 @@ You will first need to download these tools to ensure the project builds correct
 For Windows, make sure that your JAVA_HOME and PATH environment variable is set to the correct Java installation path.
 For Mac, you can edit your shell profile to change the JAVA_HOME and PATH environment variable are correct.
 
+
+## Steps to deploy the application
 Once you cloned the repository, open the project in your IDE (I used Visual Studio Code).
 Once you open the project, you can open the integrated terminal for the microservice as shown below.
 
