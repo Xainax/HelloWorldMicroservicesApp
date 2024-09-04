@@ -54,6 +54,7 @@ minikube service world-service
 ![Alt text](image-3.png)
 
 11. Once the Python script is using the correct links, you will need to install requests so run the command `python -m pip install requests` or `python3 -m pip install requests` depending on your OS. 
+![Alt text](image-6.png)
 
 12. After Requests is installed, you can run the Python script using `python3 HelloWorldService.py` or `python HelloWorldService.py` and it should print out "Hello World".
 ![Alt text](image-5.png)
