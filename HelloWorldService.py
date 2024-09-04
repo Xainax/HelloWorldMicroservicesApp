@@ -1,7 +1,7 @@
 import requests
 
-HELLO_MICROSERVICE_URL = "http://127.0.0.1:54255/hello" #change according to url given by kubernetes
-WORLD_MICROSERVICE_URL = "http://127.0.0.1:54265/world" #change according to url given by kubernetes
+HELLO_MICROSERVICE_URL = "http://127.0.0.1:50307/hello" #change according to url given by kubernetes
+WORLD_MICROSERVICE_URL = "http://127.0.0.1:50334/world" #change according to url given by kubernetes
 
 def call_hello():
     try:
