@@ -28,13 +28,13 @@ For Mac, you can edit your shell profile to change the JAVA_HOME and PATH enviro
 ## Steps to deploy the application
 1. Once you cloned the repository, open the project in your IDE (I used Visual Studio Code).
 2. Once you open the project, you can open the integrated terminal for the microservice as shown below.
-![alt text](image.png)
+![alt text](screenshots/image.png)
 3. Run `./gradlew clean build` in the integrated terminal for both helloMicroservice and worldMicroservice.
 4. Once gradle builds, run the command `docker pull eric02pham/hello-service` and `eric02pham/world-service` in their respective terminal. The docker image should show up in your Docker desktop. 
 5. Containerize them by pressing the run button. For this project, change the port of hello-service to 8080 and the port for world-service to 8081.
-![Alt text](image-1.png)
+![Alt text](screenshots/image-1.png)
 6. Once you have created the containers, go to your integrated terminal and run the command `minikube start` (keep in mind, if this is the first time you are running Minikube, it will take a bit of time) to build your cluster.
-![Alt text](image-7.png)
+![Alt text](screenshots/image-7.png)
 7. After the cluster is built, you will need to apply the Kubernetes manifest so run these following commands:
 ```
 kubectl apply -f hello-service-microservice.yaml
@@ -48,19 +48,19 @@ minikube service hello-service
 minikube service world-service
 ```
 9. Minikube should provide you links for each service and you can change the endpoints to test if the microservices work as intended. 
-![Alt text](image-2.png)
+![Alt text](screenshots/image-2.png)
 
 10. Once you are given the URLs for your microservices, take them and change the links in the HelloWorldService.py to match them.
-![Alt text](image-3.png)
-![Alt text](image-4.png)
-![Alt text](image-8.png)
-![Alt text](image-9.png)
+![Alt text](screenshots/image-3.png)
+![Alt text](screenshots/image-4.png)
+![Alt text](screenshots/image-8.png)
+![Alt text](screenshots/image-9.png)
 
 11. Once the Python script is using the correct links, you will need to install requests so run the command `python -m pip install requests` or `python3 -m pip install requests` depending on your OS. 
-![Alt text](screenshot images/image-6.png)
+![Alt text](screenshots/image-6.png)
 
 12. After Requests is installed, you can run the Python script using `python3 HelloWorldService.py` or `python HelloWorldService.py` and it should print out "Hello World".
-![Alt text](image-5.png)
+![Alt text](screenshots/image-5.png)
 
 ## Links to Docker Images
 - Hello Microservice: https://hub.docker.com/r/eric02pham/hello-service
