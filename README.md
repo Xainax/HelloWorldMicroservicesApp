@@ -34,6 +34,7 @@ For Mac, you can edit your shell profile to change the JAVA_HOME and PATH enviro
 5. Containerize them by pressing the run button. For this project, change the port of hello-service to 8080 and the port for world-service to 8081.
 ![Alt text](image-1.png)
 6. Once you have created the containers, go to your integrated terminal and run the command `minikube start` (keep in mind, if this is the first time you are running Minikube, it will take a bit of time) to build your cluster.
+![Alt text](image-7.png)
 7. After the cluster is built, you will need to apply the Kubernetes manifest so run these following commands:
 ```
 kubectl apply -f hello-service-microservice.yaml
